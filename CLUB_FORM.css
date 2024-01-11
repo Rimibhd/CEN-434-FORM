@@ -1,0 +1,64 @@
+body {
+font-family: "Space Mono", monospace; /* Raw, industrial font */
+background-color: #222; /* Dark, moody background */
+color: #fff; /* High-contrast text */
+margin: 0;
+padding: 40px;
+}
+
+h1 {
+text-align: center;
+font-size: 3em;
+letter-spacing: 0.15em; /* Subtle letter spacing */
+margin-bottom: 40px;
+}
+
+label {
+display: block;
+margin-bottom: 15px;
+font-weight: bold;
+}
+
+input,
+select {
+background-color: transparent; /* Transparent background */
+border: 2px solid #fff; /* Thick, white border */
+border-radius: 0; /* No rounded corners */
+padding: 10px;
+width: 300px;
+color: #fff;
+}
+
+button {
+background-color: transparent; /* Transparent background */
+color: #fff;
+border: 2px solid #fff; /* Thick, white border */
+padding: 15px 20px;
+border-radius: 0; /* No rounded corners */
+cursor: pointer;
+font-weight: bold;
+}
+
+button:hover {
+background-color: #333; /* Subtle hover effect */
+}
+
+/* Additional neo-brutalist touches */
+
+img {
+filter: grayscale(100%); /* Black and white images */
+}
+
+.container {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 30px;
+}
+
+.submit-button {
+font-size: 1.2em;
+letter-spacing: 0.1em;
+}
